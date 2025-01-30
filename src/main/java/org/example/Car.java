@@ -6,9 +6,11 @@ public class Car extends Vehicle {
         super(numberOfWheels, color, engineSize, fuelType);
         this.brand = brand;
     }
+    //Method to print honk message
     public void honk(){
         System.out.println("Honk, honk!");
     }
+    //Method that displays information from inherited class and current
     public void displayInfo(){
         System.out.println("Number of Wheels: " + getnumberOfWheels());
         System.out.println("Color: " + getcolor());
