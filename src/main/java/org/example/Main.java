@@ -4,11 +4,13 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Hello and welcome!");
+        Vehicle vehicle1 = new Vehicle(4, "Pink", 2.5f, "Gas");
+        Car car1 = new Car(4, "White", 1.5f, "Gas", "Mazda");
+        //Test Cases for Methods
+        car1.honk();
+        car1.displayInfo();
 
-        for (int i = 1; i <= 5; i++) {
 
-            System.out.println("i = " + i);
+
         }
     }
-}
